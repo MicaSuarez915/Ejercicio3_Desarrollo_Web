@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Good Place — Contacto</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+<header>
+  <div class="container header-inner">
+    <div class="brand">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/The_Good_Place_title_card.svg" alt="Logo The Good Place">
+      <h1 class="site-title ">The Good Place</h1>
+      <p class="small">Sitio fan de la serie "The Good Place" de Netflix</p>
+    </div>
+    <nav aria-label="Navegación principal">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="index.html">Inicio</a></li>
+        <li><a class="nav-link" href="personajes.html">Personajes</a></li>
+        <li><a class="nav-link" href="episodios.html">Episodios</a></li>
+        <li><a class="nav-link" href="contacto.html" aria-current="page">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container section">
+  <h2>Contacto para fans</h2>
+  <img class="hero-banner" src="https://miro.medium.com/v2/resize:fit:1400/1*crKMvcpH2hY3aM5R3gXANg@2x.jpeg" alt="The Good Place" />
+  <p class="small">Dejame tu comentario o suscribite para recibir novedades.</p>
+
+
+  <form action="mailto:micsuarez@uade.edu.ar" method="post" enctype="text/plain">
+    <div class="form-row">
+      <div>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="tu@email.com" required>
+      </div>
+    </div>
+
+    <label for="asunto">Asunto</label>
+    <input id="asunto" name="asunto" type="text" placeholder="Comentario / suscripción" required>
+
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribí tu mensaje..." required></textarea>
+
+    <div class="actions">
+      <button type="submit" class="btn">Enviar</button>
+      <button type="reset" class="btn outline">Limpiar</button>
+    </div>
+  </form>
+</main>
+
+<footer>
+  <div class="container">
+    <p class="mb-0">© 2025 Micaela Suárez — Sitio fan de The Good Place</p>
+    <a href="episodios.html" class="btn outline">Ver episodios</a>
+  </div>
+</footer>
+<a href="#top" class="btn back-to-top" aria-label="Volver arriba">↑</a>
+</body>
+</html>
